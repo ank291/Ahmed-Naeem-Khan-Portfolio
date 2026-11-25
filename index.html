@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Naeem Khan | Web &amp; Flutter Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Pure CSS Top Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="logo">ANK<span>.dev</span></a>
+      <input type="checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="menu-label" aria-label="Toggle Menu">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About &amp; Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="container hero fade-up">
+      <div class="hero-content">
+        <span class="status-badge">Available for Web &amp; Mobile App Development</span>
+        <h1>Hi, I'm <span>Ahmed Naeem Khan</span></h1>
+        <div class="typing-role">Web Developer &amp; Flutter App Engineer</div>
+        <p>
+          Bachelor of Science in Computer Science (BSCS) student crafting responsive web platforms and high-performance cross-platform mobile applications with clean architecture and modern UI/UX.
+        </p>
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="https://github.com/ank291" target="_blank" rel="noopener" class="btn btn-outline">GitHub (@ank291)</a>
+          <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-up delay-1">
+        <div class="avatar-frame">
+          <img src="image.jpg" alt="Ahmed Naeem Khan Portrait" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education -->
+    <section id="about" class="container fade-up delay-1">
+      <h2 class="section-title">About &amp; Education</h2>
+      <p class="section-subtitle">Academic foundation and engineering focus.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <span class="card-tag">Academic Degree</span>
+          <h3>BS in Computer Science (BSCS)</h3>
+          <p>
+            Focused on software engineering principles, object-oriented programming, data structures, relational databases, and mobile/web application development.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="card-tag">Core Specialization</span>
+          <h3>Cross-Platform &amp; Web Engineering</h3>
+          <p>
+            Building seamless Android/iOS mobile experiences with Flutter &amp; Dart alongside responsive, accessible web applications using modern frontend and backend technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container fade-up delay-2">
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-subtitle">Technologies, frameworks, and tools I build with.</p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Flutter Development</h3>
+          <p>Cross-platform mobile apps with custom widgets, responsive layouts, REST API integration, and smooth state management.</p>
+          <div class="pill-list">
+            <span class="pill">Flutter</span>
+            <span class="pill">Dart</span>
+            <span class="pill">Android &amp; iOS</span>
+            <span class="pill">Material UI</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites and web applications built with semantic markup, fluid CSS Grid/Flexbox, and clean architecture.</p>
+          <div class="pill-list">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Tools &amp; Workflow</h3>
+          <p>Version control, collaborative software development, UI prototyping, and deployment pipelines.</p>
+          <div class="pill-list">
+            <span class="pill">Git &amp; GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Android Studio</span>
+            <span class="pill">Firebase / APIs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Showcase with Pure CSS Category Filter -->
+    <section id="projects" class="container fade-up delay-3">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">Filter between mobile Flutter apps and web development projects.</p>
+
+      <input type="radio" name="proj-filter" id="filter-all" class="filter-radio" checked />
+      <input type="radio" name="proj-filter" id="filter-flutter" class="filter-radio" />
+      <input type="radio" name="proj-filter" id="filter-web" class="filter-radio" />
+
+      <div class="filter-tabs">
+        <label for="filter-all" class="tab-label">All Projects</label>
+        <label for="filter-flutter" class="tab-label">Flutter Apps</label>
+        <label for="filter-web" class="tab-label">Web Development</label>
+      </div>
+
+      <div class="grid-3 projects-grid">
+        <div class="card project-card cat-flutter">
+          <span class="card-tag">Flutter &bull; Dart</span>
+          <h3>Cross-Platform Task &amp; Productivity App</h3>
+          <p>Mobile application featuring clean Material 3 UI, custom animations, local storage persistence, and intuitive task categorization.</p>
+          <div class="pill-list">
+            <span class="pill">Flutter</span>
+            <span class="pill">Dart</span>
+            <span class="pill">Mobile UI</span>
+          </div>
+        </div>
+
+        <div class="card project-card cat-web">
+          <span class="card-tag">HTML5 &bull; CSS3</span>
+          <h3>Personal Developer Portfolio</h3>
+          <p>Responsive dark-mode portfolio engineered with zero JavaScript, featuring CSS scroll-driven progress indicators and interactive filters.</p>
+          <div class="pill-list">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">GitHub Pages</span>
+          </div>
+        </div>
+
+        <div class="card project-card cat-flutter">
+          <span class="card-tag">Flutter &bull; REST API</span>
+          <h3>Smart Weather &amp; News Companion</h3>
+          <p>Real-time mobile dashboard consuming live JSON APIs with dynamic weather cards, search filtering, and offline caching.</p>
+          <div class="pill-list">
+            <span class="pill">Flutter</span>
+            <span class="pill">REST API</span>
+            <span class="pill">JSON</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container fade-up">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Interested in collaborating on a web or Flutter project? Send a message below.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Connect Directly</h3>
+          <p style="margin-bottom: 1.5rem;">Open to freelance web &amp; mobile app projects, internships, and software engineering collaborations.</p>
+          <p class="info-row"><strong>Name:</strong> Ahmed Naeem Khan</p>
+          <p class="info-row"><strong>Education:</strong> BS Computer Science (BSCS)</p>
+          <p class="info-row"><strong>GitHub:</strong> <a href="https://github.com/ank291" target="_blank" rel="noopener">github.com/ank291</a></p>
+        </div>
+
+        <div class="card">
+          <form action="#submitted" method="get">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email *</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details *</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your web or Flutter project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
+            <div id="submitted" class="success-banner">
+              Thank you! Your message has been sent to Ahmed Naeem Khan.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Naeem Khan (@ank291). Built with pure HTML5 &amp; CSS3.</p>
+  </footer>
+</body>
+</html>
